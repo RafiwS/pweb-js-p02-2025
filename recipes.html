@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes Collection</title>
+    <link rel="stylesheet" href="assets/css/recipes.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Koleksi Dapur Bu Wiwin</h1>
+            <div class="nav-right">
+                <span class="user-name">Assalamualaikum, <span id="userName"></span>!</span>
+                <button id="logoutButton" class="btn-logout">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="search-filter-section">
+                <input
+                    type="text"
+                    id="searchInput"
+                    class="search-input"
+                    placeholder="Cari resep berdasarkan nama, cuisine, ingredients, atau tags">
+
+                <select id="cuisineFilter" class="filter-select">
+                    <option value="">Semua Cuisine</option>
+                </select>
+            </div>
+
+            <div id="loadingState" class="loading-state" style="display: none;">
+                <div class="loading-spinner"></div>
+                <p>Memuat resep...</p>
+            </div>
+
+            <div id="errorState" class="error-state" style="display: none;">
+                <p>Gagal memuat data resep</p>
+                <button id="retryButton" class="btn-retry">Coba Lagi</button>
+            </div>
+
+            <div id="recipesGrid" class="recipes-grid"></div>
+
+            <div class="show-more-container">
+                <button id="showMoreButton" class="btn-show-more" style="display: none;">
+                    Tampilkan Lebih Banyak
+                </button>
+            </div>
+        </div>
+    </main>
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+    <script src="assets/js/recipes.js"></script>
+</body>
+</html>
