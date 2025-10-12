@@ -34,6 +34,8 @@ Setelah login berhasil, pengguna akan diarahkan ke halaman utama yang menampilka
 ## Pagination Show More / tampilkan lebih banyak
 
 <img width="2878" height="1616" alt="image" src="https://github.com/user-attachments/assets/cf7b555c-eb1b-408f-b848-840f2f2fa6da" />
+Tombol “Tampilkan Lebih Banyak” akan muncul di bagian bawah grid resep apabila masih terdapat resep yang belum ditampilkan. Setiap kali tombol diklik, sistem akan memuat beberapa resep tambahan dan memperbarui penghitungnya.
+
 
 ## Search Functionality 
 ### - With Results
