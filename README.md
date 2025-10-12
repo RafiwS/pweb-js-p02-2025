@@ -47,7 +47,7 @@ Tombol “Tampilkan Lebih Banyak” akan muncul di bagian bawah grid resep apabi
 
 ## Cuisine Filter
 <img width="2878" height="1616" alt="image" src="https://github.com/user-attachments/assets/7d093bdd-3b88-438a-ad1d-d67c500b1f9b" />
-
+Cuisine filter menggunakan fitur dropdown berdasarkan daerah, ex: asian, akan menampilkan makanan yg hanya berasal dari asian
 
 ## Recipe
 <img width="537" height="961" alt="image" src="https://github.com/user-attachments/assets/1575f075-8512-493f-bf32-e6f090597428" />
