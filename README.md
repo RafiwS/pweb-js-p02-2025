@@ -49,6 +49,17 @@ Tombol “Tampilkan Lebih Banyak” akan muncul di bagian bawah grid resep apabi
 <img width="2878" height="1616" alt="image" src="https://github.com/user-attachments/assets/7d093bdd-3b88-438a-ad1d-d67c500b1f9b" />
 Cuisine filter menggunakan fitur dropdown berdasarkan daerah, ex: asian, akan menampilkan makanan yg hanya berasal dari asian
 
+## Reset & Logout
+### - Clear Search / Reset Filter 
+Jika pengguna menghapus filter pencarian atau mengatur ulang filter, maka halaman akan menampilkan semua resep dari awal lagi, bukan hasil yang difilter.
+
+### - Logout Button 
+Saat tombol Logout di navbar diklik, data nama pengguna (firstName) yang sebelumnya disimpan di localStorage akan dihapus. Setelah itu, pengguna langsung diarahkan kembali ke halaman login.
+
+### - Authentication Check 
+memiliki mekanisme keamanan yang memastikan hanya pengguna yang sudah login yang bisa mengakses halaman recipes.
+Jika ada yang mencoba buka langsung halaman recipes lewat URL tanpa login dulu, sistem akan mengalihkan mereka kembali ke halaman login.
+
 ## Recipe
 <img width="537" height="961" alt="image" src="https://github.com/user-attachments/assets/1575f075-8512-493f-bf32-e6f090597428" />
 
