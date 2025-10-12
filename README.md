@@ -17,9 +17,19 @@
 ### - Jika tidak berhasil login akan menampilkan Error Handling ketika username/password salah.
 <img width="836" height="724" alt="image" src="https://github.com/user-attachments/assets/6f6a5914-0d25-4f55-9b4f-072dcdf38e28" />
 
+Halaman Login Page pada aplikasi Recipe Collection berfungsi sebagai gerbang utama sebelum pengguna dapat mengakses halaman resep.
+Proses autentikasi dilakukan menggunakan API dari DummyJSON
+, di mana pengguna login dengan memasukkan username dan password.
+- Jika username dan password diisi dengan benar, maka proses login akan berhasil, dan nama pengguna (firstName) akan disimpan di localStorage untuk digunakan di halaman berikutnya.
+- Jika kolom username atau password dibiarkan kosong, sistem akan menampilkan notifikasi peringatan agar pengguna mengisi seluruh form terlebih dahulu.
+- Jika data login tidak valid (username atau password salah), akan muncul pesan error sebagai bentuk error handling.
+- Ketika login berhasil, sistem akan menampilkan success message dan kemudian mengalihkan pengguna ke halaman utama (recipes page).
+
 ## Recipes Page - Initial Load
 
 <img width="2878" height="1616" alt="image" src="https://github.com/user-attachments/assets/f8a53d9a-f614-41e7-894f-c1978d5618f0" />
+
+Setelah login berhasil, pengguna akan diarahkan ke halaman utama yang menampilkan koleksi resep. Halaman ini menampilkan beberapa card resep rekomendasi, dan terlihat bahwa ada untuk filtering cuisine berdasarkan jenis dan nama.
 
 ## Pagination Show More / tampilkan lebih banyak
 
